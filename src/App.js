@@ -190,7 +190,7 @@ function App() {
             </div>
             <div className="p-2">
               <input
-                type="number"
+                type="text"
                 name="stock"
                 value={formData.stock}
                 onChange={handleChange}
