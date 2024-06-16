@@ -172,7 +172,7 @@ function App() {
                 name="price"
                 value={formData.price}
                 onChange={handleChange}
-                placeholder="Price"
+                placeholder="Price (in PHP)"
                 className="bg-gray-500 text-white placeholder-white border-gray-600 rounded-lg p-3 w-full"
                 required
               />
@@ -183,7 +183,7 @@ function App() {
                 name="cost"
                 value={formData.cost}
                 onChange={handleChange}
-                placeholder="Cost"
+                placeholder="Cost (in PHP)"
                 className="bg-gray-500 text-white placeholder-white border-gray-600 rounded-lg p-3 w-full"
                 required
               />
@@ -257,10 +257,10 @@ function App() {
                     <strong>Name:</strong> {item.name}
                   </p>
                   <p>
-                    <strong>Price:</strong> {item.price}
+                    <strong>Price:</strong> ₱{item.price}
                   </p>
                   <p>
-                    <strong>Cost:</strong> {item.cost}
+                    <strong>Cost:</strong> ₱{item.cost}
                   </p>
                   <p>
                     <strong>Stock:</strong> {item.stock}
